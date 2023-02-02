@@ -6,24 +6,21 @@
     --color5: #13688c;
     --color6: #373b69;
 }
-
 html,
 body {
     height: 100%;
 }
-
 body {
     background: var(--color6) !important;
 }
-
 nav {
     background: #6065ac;
 }
 nav a {
     color: #ebe5e2;
     font-size: 2.5rem !important;
+    margin-right: 20px;
 }
-
 .movie-card {
     padding: 10px;
 }
@@ -47,4 +44,19 @@ nav a {
     border-radius: 0.5rem 0.5rem 0 0;
     overflow: hidden;
     max-height: 100% !important;
+}
+button.btn.btn-primary {
+    margin-right: 10px;
+    background-color: #373b69;
+    border: 1px
+}
+button.btn.btn-secondary {
+    margin-right: 10px;
+    background-color: #373b69;
+    border: 1px
+}
+button.btn.btn-danger {
+    margin-left: 20px;
+    background-color: #373b69;
+    border: 6px
 }

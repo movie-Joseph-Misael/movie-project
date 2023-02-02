@@ -1,0 +1,107 @@
+Category:
+        family
+        suspense
+        action
+        foreign
+        military
+
+
+"movies": [
+        {
+            "Category": [
+                "family"
+            ],
+            "id": 315162,
+            "overview": "Puss in Boots discovers that his passion for adventure has taken its toll: He has burned through eight of his nine lives, leaving him with only one life left. Puss sets out on an epic journey to find the mythical Last Wish and restore his nine lives.",
+            "popularity": 4471.915,
+            "poster_path": "/kuf6dutpsT0vSVehic3EZIqkOBt.jpg",
+            "title": "Puss in Boots: The Last Wish",
+            "vote_average": 8.6,
+            "vote_count": 3089
+        },
+        {
+            "Category": [
+                "suspense"
+            ],
+            "id": 536554,
+            "overview": "A brilliant toy company roboticist uses artificial intelligence to develop M3GAN, a life-like doll programmed to emotionally bond with her newly orphaned niece. But when the doll's programming works too well, she becomes overprotective of her new friend with terrifying results.",
+            "popularity": 3280.657,
+            "poster_path": "/d9nBoowhjiiYc4FBNtQkPY7c11H.jpg",
+            "title": "M3GAN",
+            "vote_average": 7.5,
+            "vote_count": 1153
+        },
+        {
+            "Category": [
+                "action"
+            ],
+            "id": 505642,
+            "overview": "Queen Ramonda, Shuri, M’Baku, Okoye and the Dora Milaje fight to protect their nation from intervening world powers in the wake of King T’Challa’s death. As the Wakandans strive to embrace their next chapter, the heroes must band together with the help of War Dog Nakia and Everett Ross and forge a new path for the kingdom of Wakanda.",
+            "popularity": 2791.083,
+            "poster_path": "/sv1xJUazXeYqALzczSZ3O6nkH75.jpg",
+            "title": "Black Panther: Wakanda Forever",
+            "vote_average": 7.5,
+            "vote_count": 2044
+        },
+        {
+            "Category": [
+                "foreign"
+            ],
+            "id": 843794,
+            "overview": "On an uninhabitable 22nd-century Earth, the outcome of a civil war hinges on cloning the brain of an elite soldier to create a robot mercenary.",
+            "popularity": 2162.848,
+            "poster_path": "/z2nfRxZCGFgAnVhb9pZO87TyTX5.jpg",
+            "title": "JUNG_E",
+            "vote_average": 6.3,
+            "vote_count": 198
+        },
+        {
+            "Category": [
+                "action"
+            ],
+            "id": 877703,
+            "original_title": "Teen Wolf: The Movie",
+            "overview": "The wolves are howling once again, as a terrifying ancient evil emerges in Beacon Hills. Scott McCall, no longer a teenager yet still an Alpha, must gather new allies and reunite trusted friends to fight back against this powerful and deadly enemy.",
+            "popularity": 2179.575,
+            "poster_path": "/wAkpPm3wcHRqZl8XjUI3Y2chYq2.jpg",
+            "title": "Teen Wolf: The Movie",
+            "vote_average": 8.4,
+            "vote_count": 252
+        },
+        {
+            "Category": [
+                "action"
+            ],
+            "id": 76600,
+            "overview": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
+            "popularity": 1892.43,
+            "poster_path": "/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
+            "title": "Avatar: The Way of Water",
+            "vote_average": 7.7,
+            "vote_count": 4920
+        },
+        {
+            "Category": [
+                "military"
+            ],
+            "id": 653851,
+            "overview": "The harrowing true story of two elite US Navy fighter pilots during the Korean War. Their heroic sacrifices would ultimately make them the Navy's most celebrated wingmen.",
+            "popularity": 1342.628,
+            "poster_path": "/26yQPXymbWeCLKwcmyL8dRjAzth.jpg",
+            "title": "Devotion",
+            "vote_average": 7.6,
+            "vote_count": 205
+        },
+        {
+            "Category": [
+                "action"
+            ],
+            "id": 846433,
+            "overview": "A noir thriller set in Miami, the film follows an enforcer who discovers his femme fatale boss has branched out into cyber sex trafficking, putting a young runaway he’s befriended at risk. He sacrifices everything to save the young girl from the deadly organization he’s spent his life building.",
+            "popularity": 1209.793,
+            "poster_path": "/72V1r1G8S87ELagVxjqAUdChMCt.jpg",
+            "title": "The Enforcer",
+            "vote_average": 7.3,
+            "vote_count": 126
+        },
+        ];
