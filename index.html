@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-eHx4nbBTkIr2i0m9SANm/cczPESd0DUEcfl84JpIuutE6oDxPhXvskMR08Wmvmfx5wUpVjlWdi82G5YLvqqJdA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.rtl.min.css" integrity="sha512-tC3gnye8BsHmrW3eRP3Nrj/bs+CSVUfzkjOlfLNrfvcbKXFxk5+b8dQCZi9rgVFjDudwipXfqEhsKMMgRZGCDw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.js" integrity="sha512-nO7wgHUoWPYGCNriyGzcFwPSF+bPDOR+NvtOYy2wMcWkrnCNPKBcFEkU80XIN14UVja0Gdnff9EmydyLlOL7mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- START SCRIPTS -->
+
+<!-- END SCRIPTS -->
+<nav class="fixed-top d-flex justify-content-center navbar p-2">
+    <a href="index.html" class="p-0 navbar-brand d-none d-lg-block"
+    >Movie Finder</a
+    >
+    <form id="search-form" class="form-inline">
+        <input
+                id="search"
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+        />
+    </form>
+</nav>
+<section>
+    <div class="container-fluid mt-5 p-5">
+        <div id="movie-content" class="row d-flex justify-content-center">
+            <!-- javascript will come here -->
+        </div>
+    </div>
+</section>
+<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+        <li class="page-item">
+            <a id="previous" class="btn page-link" tabindex="-1">Previous</a>
+        </li>
+        <li class="page-item">
+            <a id="next" class="btn page-link">Next</a>
+        </li>
+    </ul>
+</nav>
+</body>
+</html>
