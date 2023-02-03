@@ -80,3 +80,12 @@ button.btn.btn-danger {
 #movie-category {
     margin-left: 10px;
 }
+.se-pre-con {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../img/loading.gif) center no-repeat #fff;
+}
