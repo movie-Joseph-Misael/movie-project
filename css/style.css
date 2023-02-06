@@ -9,7 +9,7 @@
 
 html,
 body {
-    height: 100%;
+    height: 100%; 
 }
 
 body {
@@ -26,7 +26,8 @@ nav a {
     margin-right: 20px;
 }
 
-.movie-card {
+.movie-card,
+.movie-card2 {
     padding: 10px;
 }
 
@@ -35,13 +36,15 @@ nav a {
     border-radius: 0 0 0.5rem 0.5rem;
 }
 
-.movie-title {
+.movie-title,
+.movie-title2 {
     color: var(--color3);
     padding: 0.5rem;
     font-size: 1rem;
 }
 
-.movie-vote {
+.movie-vote,
+.movie-vote2 {
     background: var(--color2);
     color: orange;
     text-align: center;
@@ -49,19 +52,22 @@ nav a {
     border-radius: 0.5rem;
 }
 
-.movie-img {
+.movie-img,
+.movie-img2 {
     border-radius: 0.5rem 0.5rem 0 0;
     overflow: hidden;
     max-height: 100% !important;
 }
 
 button.btn.btn-primary {
+    
     margin-right: 10px;
     background-color: #373b69;
     border: 1px
 }
 
-button.btn.btn-secondary {
+button.btn.btn-secondary,
+button.btn.btn-secondary2 {
     margin-right: 10px;
     background-color: #373b69;
     border: 1px
@@ -81,7 +87,10 @@ button.btn.btn-danger {
 
 #entry-form-title,
 #entry-form-rating,
-#entry-form-image {
+#entry-form-image,
+#second-entry-form-title,
+#second-entry-form-rating,
+#second-entry-form-image {
     margin: 10px;
     padding: 10px;
     background-color: #f2f2f2;

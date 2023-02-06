@@ -12,13 +12,13 @@
     
    
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Movie finder</title>
 </head>
 
 <body>
     <div class="se-pre-con"></div>
     <nav class="fixed-top d-flex justify-content-center navbar p-2">
-        <a href="index.html" class="p-0 navbar-brand d-none d-lg-block">Movie Finder</a>
+        <a href="index.html" class="p-0 navbar-brand d-none d-lg-block" style="color:rgb(235, 229, 215)">Movie Finder</a>
         <form id="search-form" class="form-inline">
             <input id="search" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
         </form>
@@ -35,7 +35,6 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="staticBackdropLabel">Add a new movie!</h1>
-                    <!--                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cancel"></button>-->
                 </div>
                 <div class="modal-body">
                     <div class="container-fluid movie-entry-form">
@@ -52,27 +51,62 @@
                                 <input id="entry-form-image" type="text" placeholder="Image URL" height="10em"
                                     width="50em" />
                             </div>
-                            <div>
-                                <!-- <select name="Category" id="movie-category">
-                                    <option value="none" selected disabled hidden>Select an Category</option>
-                                    <option value="family">Family</option>
-                                    <option value="suspense">Suspense</option>
-                                    <option value="action">Action</option>
-                                    <option value="foreign">Foreign</option>
-                                    <option value="military">Military</option>
-                                </select> -->
-                            </div>
-                        </form>
+                                                    </form>
                     </div>
 
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button id = "btnCancel" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
                     <button type="button" class="btn btn-primary" id="new-movie-submit">Submit</button>
                 </div>
             </div>
         </div>
     </div>
+    
+
+<!-- Second Modal -->
+<div class="modal fade" id="secondStaticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="secondStaticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="secondStaticBackdropLabel">Add another movie!</h1>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid movie-entry-form">
+                    <form class="addMovie">
+                        <div>
+                            <input id="second-entry-form-title" type="text" placeholder="Movie Title" />
+                        </div>
+                        <div>
+                            <input id="second-entry-form-rating" type="text" placeholder="Movie Rating" height="10em"
+                                width="50em" />
+                        </div>
+
+                        <div>
+                            <input id="second-entry-form-image" type="text" placeholder="Image URL" height="10em"
+                                width="50em" />
+                        </div>
+                        <div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button id = "secondBtnCancel" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary" id="second-new-movie-submit">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
     <section>
         <div class="container-fluid mt-5 p-5">
             <div id="movie-content" class="row d-flex justify-content-center">
@@ -95,7 +129,6 @@
         crossorigin="anonymous" referrerpolicy="no-referrer">
         </script>
     <script src="js/code.js">
-        
     </script>
 </body>
 
